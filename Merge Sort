@@ -1,0 +1,19 @@
+Başlangıç dizisi:
+[16, 21, 11, 8, 12, 22]
+
+iki bö
+
+(16,21,11) ve (8,12,22)
+
+(16) ve (21 11 ) diğeri de (8) ve (12,22)
+
+şimdi içinde sIrala 
+
+(11,21) (16) diğeri de (8) ve (12,22)
+şimdi ilk kısımla ikinci kısmı tek parantez
+
+(11,16,21) ve (8,12,22)
+
+karşılaştırarak birleştir
+
+(8,11,12,16,21,22) olarak sonucumuz çıkar 

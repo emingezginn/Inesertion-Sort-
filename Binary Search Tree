@@ -1,0 +1,41 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+şimdi ilk eleman 7 dir yani köktür
+
+sonraki eleman 5 oldugu için 7>5 olduğundan 
+
+ 7 nin soluna 5 yazılır
+5 in solda olduğundan bi sonraki elemanı karşılaştıralım
+bu durumda 1<5<7 
+5 in soluna 1 yazılır
+bi sonraki eleman 8 dir 
+diğer elemanlardan büyüktür ve 7 nin sağına yerleştirilir
+bir sonraki eleman 3 tür 
+birden büyük ve 5 ten küçük olduğu için 1 in sağına yerleştirlir
+bir sonraki eleman 6 olduğu için 5 in sağına yerleştirilir
+bir sonraki eleman 0 dır ve tüm elemanların en küçüğüdür bu sebeple 1 in soluna yerleştirilir
+ bir sonraki eleman 9 dur ve 8 in sağına yerleştirilir çünkü 9 karşılaştırılan tüm elemanlardan büyüktür 
+bir sonraki eleman 4 tür. 5ten küçük 3 ten büyüktür ve 3 ün sağına yerleştirilir 
+bir sonraki eleman 2 dir ve 1 den büyük 3 ten küçüktür bu sebeple 3ün soluna yerkeştirilr
+Sonuç (Ağaç açıklamasıyla):
+Root 7'dir.
+
+7'nin solunda 5, sağında 8 bulunur.
+
+5'in solunda 1, sağında 6 bulunur.
+
+1'in solunda 0, sağında 3 bulunur.
+
+3'ün solunda 2, sağında 4 bulunur.
+
+8'in sağında 9 bulunur.
+
+           7
+         /   \
+        5     8
+       / \     \
+      1   6     9
+     / \
+    0   3
+       / \
+      2   4
